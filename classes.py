@@ -131,9 +131,8 @@ class UserRecipe(AnyList):
 class User:
     id = 0
 
-    def __init__(self, id, email, password, name):
+    def __init__(self, email, password, name):
         User.id += 1
-        self.id = id
         self.email = email
         self.password = password
         self.name = name
